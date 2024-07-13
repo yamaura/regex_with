@@ -7,9 +7,9 @@ version = "0.1.0"
 authors = ["Yuki Yamaura <ymruki@gmail.com>"]
 edition = "2021"
 license = "MIT"
-description = "A library for sequence processing in Rust."
-homepage = "https://github.com/yamaura/phargs"
-repository = "https://github.com/yamaura/phargs"
+description = "A Rust library providing procedural macros for regex-based parsing and validation of custom data types."
+homepage = "https://github.com/yamaura/regex_with"
+repository = "https://github.com/yamaura/regex_with"
 
 [workspace.metadata.release]
 push = false
