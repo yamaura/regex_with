@@ -1,0 +1,20 @@
+[package]
+name = "regex_with_derive"
+version.workspace = true
+authors.workspace = true
+edition.workspace = true
+description.workspace = true
+repository.workspace = true
+license.workspace = true
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = "2"
+quote = "1"
+proc-macro2 = "1"
+
+[dev-dependencies]
+regex_with = { path = "../regex_with" }
+serde = { workspace = true, features = ["derive"] }

@@ -1,0 +1,16 @@
+[package]
+name = "regex_with"
+version.workspace = true
+authors.workspace = true
+edition.workspace = true
+description.workspace = true
+repository.workspace = true
+license.workspace = true
+readme = "../../README.md"
+
+[dependencies]
+regex = { workspace = true }
+regex_with_derive = { path = "../regex_with_derive", version = "=0.1.0" }
+serde = { workspace = true }
+serde_plain = "1.0.2"
+thiserror = { workspace = true }
