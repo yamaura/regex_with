@@ -10,7 +10,7 @@ readme = "../../README.md"
 
 [dependencies]
 regex = { workspace = true }
-regex_with_derive = { path = "../regex_with_derive", version = "=0.1.0" }
+regex_with_derive = { path = "../regex_with_derive", version = "=0.1.1" }
 serde = { workspace = true }
 serde_plain = "1.0.2"
 thiserror = { workspace = true }
